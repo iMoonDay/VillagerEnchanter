@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "villager_enchanter",
+  "version": "${version}",
+  "name": "Villager Enchanter",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/iMoonDay/VillagerEnchanter"
+  },
+  "license": "MIT",
+  "icon": "assets/villager_enchanter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.imoonday.villager_enchanter.client.VillagerEnchanterClient"
+    ],
+    "main": [
+      "com.imoonday.villager_enchanter.VillagerEnchanter"
+    ]
+  },
+  "mixins": [
+    "villager_enchanter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
