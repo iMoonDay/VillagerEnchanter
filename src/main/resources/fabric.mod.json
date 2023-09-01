@@ -12,9 +12,6 @@
   "icon": "assets/villager_enchanter/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "com.imoonday.villager_enchanter.client.VillagerEnchanterClient"
-    ],
     "main": [
       "com.imoonday.villager_enchanter.VillagerEnchanter"
     ]

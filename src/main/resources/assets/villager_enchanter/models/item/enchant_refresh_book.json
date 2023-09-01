@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/enchanted_book"
+    "layer0": "villager_enchanter:item/enchant_refresh_book"
   }
 }
