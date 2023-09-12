@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.imoonday.villager_enchanter.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemGroupsMixin",
+    "VillagerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
