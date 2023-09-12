@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.imoonday.villager_enchanter.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "villager_enchanter.refmap.json",
+  "mixins": [
+    "VillagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
